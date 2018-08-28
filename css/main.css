@@ -445,7 +445,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: calc(100% - 20px);
+  width: 300px;
 }
 @media (min-width: 1200px) {
   .container .header-inner {
@@ -462,7 +462,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: 300px;
 }
 @media (min-width: 1200px) {
   .container .main-inner {
@@ -484,7 +484,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: calc(100% - 20px);
+  width: 300px;
 }
 @media (min-width: 1200px) {
   .container .footer-inner {
@@ -1106,7 +1106,7 @@ pre .javascript .function {
 }
 .headband {
   height: 3px;
-  background: #222;
+  background: #87daff;
 }
 .site-meta {
   margin: 0;
@@ -1145,7 +1145,7 @@ pre .javascript .function {
 .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
-  color: #ddd;
+  color: $000000;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1839,7 +1839,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #01a30b;
+  background: #283639;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2492,7 +2492,7 @@ ul.breadcrumb li+li:last-child {
 .header {
   position: relative;
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: 300px;
 }
 @media (min-width: 1200px) {
   .header {
@@ -2647,13 +2647,52 @@ ul.breadcrumb li+li:last-child {
   padding-left: 0;
   padding-right: 260px;
 }
+.header {
+  width: 60%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    width: 100%;
+  }
+}
+.container .main-inner {
+  width: 60%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container .main-inner {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .container .main-inner {
+    width: 100%;
+  }
+}
+.content-wrap {
+  width: calc(100% - 260px);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-wrap {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .content-wrap {
+    width: 100%;
+  }
+}
 .site-brand-wrapper {
   position: relative;
 }
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: #222;
+  background: #87daff;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-meta {
