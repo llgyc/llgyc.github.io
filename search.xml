@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Blog终于搭好啦！]]></title>
+    <title><![CDATA[终于搭好啦！]]></title>
     <url>%2Fnewblog%2F</url>
     <content type="text"><![CDATA[完结撒花！ 其实虽然十几天前就已经搭好blog了，然而由于军训把第一篇post鸽了很久。总之，现在一切都准备好啦。让我们开始愉快的写blog吧！]]></content>
+      <categories>
+        <category>杂文</category>
+      </categories>
   </entry>
 </search>
