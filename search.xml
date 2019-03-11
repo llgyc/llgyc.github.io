@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[《数学分析I》总复习]]></title>
-    <url>%2Fmathematical-analysis%2F</url>
-    <content type="text"><![CDATA[主要内容为PKU版《数学分析(第一册)》 函数实数数集 集合、元素、包含、子集、真子集、并、交、差 实数系的连续性 定义1.1.1 设$S$是一个大小有顺序的非空数集，$A$和$B$是它的两个子集，如果它们满足以下条件： (1)$A\neq \varnothing,B\neq \varnothing$ (2)$A\cup B=S$ (3)$\forall a\in A,\forall b\in B$，都有$a\lt b$ (4)$A$中无最大数则我们将$A,B$称为$S$的一个分划，记为$(A|B)$对$\mathbb Q$的任意分划$(A|B)$，必有以下两种情形之一发生： (1)$B$中存在最小数，此时称$(A|B)$是一个有理分划 (2)$B$中不存在最小数，此时称$(A|B)$是一个无理分划 有理数集$\mathbb Q$所有分划构成的集合——实数系$\mathbb R$，无理分划——无理数 对于一个数集$A$，若对任意两个数$a,b\in A$，$a,b$之间的所有数都在$A$中，则称$A$是连通的 定理1.1.1（戴德金分割定理） 对$\mathbb R$的任一分划$(A|B)$，$B$中必有最小数 有界集与确界 上界、下界、有界、上确界、下确界 定理1.1.2（确界存在定理） 非空有上界的实数集必有上确界，非空有下界的实数集必有下确界证明 将$\mathbb R$分为数集$E$的所有上界组成的集合$B$和$A =\mathbb R\setminus B$，运用戴德金分割定理即可 几个常用不等式 三角不等式|x+y|\leq |x|+|y| 伯努利(Bernoulli)不等式 对任意的$x\geq -1$和任意正整数$n$，有(1+x)^n\geq 1+nx 算术-几何平均不等式 对任意n个非负实数$x_1,x_2,\cdots,x_n$，有\frac{x_1+x_2+\cdots+x_n}{n} \geq \sqrt[n]{x_1x_2\cdots x_n} 常用记号 $\mathbb N\subset \mathbb Z\subset \mathbb Q\subset \mathbb R$ 闭区间、开区间、左开右闭区间、左闭右开区间、无穷区间、邻域、去心邻域 函数的概念函数的定义 函数、值、定义域、值域、自变量、因变量、图像 基本初等函数：常值函数、幂函数、指数函数、对数函数、三角函数、反三角函数 符号函数y=sgn(x)=\begin{cases} 1, & x\gt 0 \\ 0, & x=0 \\ -1, & x\lt 0 \end{cases} 狄利克雷(Dirichlet)函数$$$$]]></content>
-      <categories>
-        <category>Notes</category>
-        <category>Mathematics</category>
-      </categories>
-      <tags>
-        <tag>mathematics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[力学笔记]]></title>
-    <url>%2Fmachanics%2F</url>
-    <content type="text"><![CDATA[本来想写一些力学笔记。(好吧现在变成了期末总复习……) Chapter 1 运动学 KinematicsSection 1 绪论 Introduction 运动类型：直线、圆周、振动、波动（振动的空间传播）、转动（整体） 基本概念： 运动学：研究物体运动的规律 动力学：研究物体运动的原因 国际单位制(SI)： 时间 秒$(s)$ 长度 米$(m)$ 质量 千克$(kg)$ 热力学温度 开尔文$(K)$ 电流强度 安培$(A)$ 光强度 坎德拉$(cd)$ 摩尔的量 摩尔$(mol)$ 量纲分析：检验公式推导是否正确 质点(Particle)：有质量，无体积，物体尺寸&lt;&lt;运动范围 运动具有相对性 经典时空观 长度、时间的测量与参照系无关 伽利略相对性原理（力学相对性原理）：对于任何惯性参照系，牛顿定律都成立 Section 2 质点的直线和曲线运动 位置矢量（位矢）：连接坐标原点和质点所在位置的有向线段$\vec{r}$ 位移：$\Delta\vec{r}=\vec{r}(t+\Delta t)-\vec{r}(t)$ 速度：$\vec{v}=\frac{d\vec{r}}{dt}$ 加速度：$\vec{a}=\frac{d\vec{v}}{dt}$ 反向求只需积分即可。 Section 3 位移、速度、加速度在坐标系中的运用 自然坐标系：运动轨道上任意一点建立正交坐标系，切向矢量$\vec{e_t}$，法向矢量$\vec{e_n}$ 速度：$\vec{v}=\frac{ds}{dt}\vec{e_t}$ 速率：$v=|\vec{v}|=\frac{ds}{dt}$ 加速度：$\vec{a}=\frac{dv}{dt}\vec{e_t}+\frac{v^2}{\rho}\vec{e_n}=a_t\vec{e_t}+a_n\vec{e_n}$（其中$a_t$为切向加速度，代表速度大小变化；$a_n$为法向加速度，代表速度方向变化；$\rho$为曲率半径【曲线上一点密切圆半径】） 直角坐标系：单位矢量$\vec{i},\vec{j},\vec{k}$ 速度：$\vec{v}=\dot{x}\vec{i}+\dot{y}\vec{j}+\dot{z}\vec{k}$ 加速度：$\vec{a}=\ddot{x}\vec{i}+\ddot{y}\vec{j}+\ddot{z}\vec{k}$ 平面极坐标系：确定极点$O$和极轴，位矢$\vec{r}$由矢径$\rho=|\vec{r}|$和极角$\varphi$确定，$e_{\rho}$为径向矢量，$e_{\varphi}$为角向矢量（指向$\varphi$增加的方向） 速度：$\vec{v}=\frac{d\vec{r}}{dt}=\frac{d}{dt}(\rho\vec{e_p})=\frac{d\rho}{dt}\vec{e_{\rho}}+\rho\frac{d\vec{e_{\rho}}}{dt}=\dot{\rho}\vec{e_{\rho}}+\rho\dot{\varphi}\vec{e_{\varphi}}$（转成直角坐标或者画图可证）即$v_{\rho}=\dot{\rho},v_{\varphi}=\rho\dot{\varphi}$ 加速度：$\vec{a}=(\ddot{\rho}-\rho\dot{\varphi}^2)\vec{e_{\rho}}+(\rho\ddot{\varphi}+2\dot{\rho}\dot{\varphi})\vec{e_{\varphi}}$ 柱坐标系：平面极坐标系+垂直的z坐标 球坐标系：质点$P$的空间位置由$r,\theta,\varphi$确定（$\theta$为极角，$\varphi$为方位角）【遇到时再临时算就好了】 Section 4 刚体运动学 刚体 定义：形状和大小不变的物体 自由度：确定位置所需独立变量的个数 对刚体来说，平面运动时为3(点)$\times$2(每点)-3(约束方程)=3，三维空间运动时为3(点)$\times$3(每点)-3(约束方程)=6【或者3(点)+2(轴)+1(转动)】 刚体基本运动 平动：刚体上任一确定直线始终保持平行 转动：刚体上各点都绕同一直线作圆周运动 定轴转动：刚体上某一确定直线保持不动 速度：$\vec{v}=\vec{\omega}\times\vec{r}$（其中，$\vec{r}$是转动轴上任意一点指向考察点的位矢） 固定在刚体上单位矢量的时间变化率等于刚体转动角速度与该矢量的叉乘 加速度：$\vec{a}=\frac{d\vec{\omega}}{dt}\times\vec{r}+\vec{\omega}\times(\vec{\omega}\times\vec{r})$ 任意运动 欧拉-沙尔定理：刚体的任意运动都可以分解为刚体随其上任一定点（基点）的平动位移与绕该点的一个定轴转动位移之和 性质：刚体的转动角速度不因基点不同而不同 Chapter 2 动力学Chapter 8 波动 **]]></content>
-      <categories>
-        <category>Notes</category>
-        <category>Physics</category>
-      </categories>
-      <tags>
-        <tag>physics</tag>
-        <tag>mechanics</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[终于搭好啦！]]></title>
     <url>%2Fnewblog%2F</url>
     <content type="text"><![CDATA[完结撒花！ 其实虽然十几天前就已经搭好blog了，然而由于军训把第一篇post鸽了很久。总之，现在一切都准备好啦。让我们开始愉快的写blog吧！]]></content>
